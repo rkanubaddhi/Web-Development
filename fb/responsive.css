@@ -1,0 +1,44 @@
+@media screen and (max-width: 725px){
+  .logo{
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .form{
+    width: 100%;
+    float: none;
+  }
+  .content{
+    float: none;
+    width: 385px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 435px){
+  .logo{
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .form{
+    width: 100%;
+    float: none;
+  }
+  .content{
+    float: none;
+    width: 200px;
+    margin: auto;
+  }
+  .email,.pass,.login{
+    float: none;
+    margin: 0px 15px;
+  }
+  .forgot{
+    text-align: center;
+  }
+  .login input[type="submit"]{
+    margin: 10px auto 0px;
+  }
+}

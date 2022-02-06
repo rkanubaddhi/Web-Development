@@ -1,0 +1,116 @@
+body{
+}
+.header{
+  height: 50px;
+  position: sticky;
+  top: 0px;
+}
+.content{
+  width: 95%;
+  margin: auto;
+}
+.logo{
+  float: left;
+  width: 5%;
+}
+.logo img{
+  width: 45px;
+  height: 40px;
+}
+.title-box{
+  float: left;
+  width: 37%;
+}
+.title{
+  margin-top: -5px;
+  margin-left: 10px;
+}
+.title h1{
+  margin: 0;
+  font-size: 25px;
+}
+.tag{
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: -7px;
+}
+.menu{
+  float: left;
+  width: 50%;
+}
+.menu-item{
+  width:80%;
+  margin: auto;
+}
+.menu-item li{
+  float: left;
+  margin: 15px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  float: left;
+  list-style-type: none;
+}
+ul li a{
+  color: #D1DCD8;
+  text-decoration: none;
+  font-weight: 600;
+}
+ul li a:hover{
+  color: #fff;
+}
+.sub{
+  box-shadow: 0px 3px 3px 2px #f1f1f1;
+  position: absolute;
+  display: none;
+}
+.sub a{
+  background: #000;
+  padding: 5px 100px 5px 20px;
+  display: block;
+  color: #fff;
+  margin-bottom: .5px;
+}
+ul li:hover .sub{
+  display: block;
+}
+.sub a:hover{
+  background: #505050;
+}
+
+.btn{
+  float: left;
+  width: 8%;
+}
+.btn button{
+  font-size: 20px;
+  background: #E98B14;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 25px;
+}
+.btn button h{
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+}
+.mid{
+  background-image:url("resource/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  padding:80px 20px 500px;
+  margin-top: -60px;
+}
+.welcome{
+  font-size: 70px;
+  font-weight: 900;
+  font-family: fantasy;
+  color: white;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-top: 300px;
+}

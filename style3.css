@@ -1,0 +1,91 @@
+.green-box{
+  width: 600px;
+  height: 350px;
+  background: green;
+  position: relative;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.red-box{
+  width: 250px;
+  height: 250px;
+  background: red;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  top: 0px;
+  margin: auto;
+  border-radius: 50%;
+}
+.bar{
+  color: white;
+  text-align: center;
+  width: 1080px;
+  height: 50px;
+  background: black;
+  position: sticky;
+  top: 0px;
+}
+.box1{
+  margin-top: 100px;
+  margin-left: 20px;
+  background: pink;
+  width: 400px;
+  height: 100px;
+  overflow: scroll;/* hidden,auto,visible*/
+}
+.box2{
+  font-size: 50px;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  background: green;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  top: 0px;
+}
+.box{
+  width: 25%;
+  height: 200px;
+  float: left;/*right,none*/
+}
+.red{
+  background: red;
+}
+.green{
+  background: green;
+}
+.black{
+  background: black;
+}
+.blue{
+  background: blue;
+}
+/*Combinator is used to define specific tag. > is used to denote the tags under another tag*/
+div > p{
+  background: red;/* work for Just p tags directly under div tags(e.g: >,+,space)*/
+  color: blue;
+}
+.menu{
+  margin-top: 300px;
+  background: yellow;
+  text-align: center;
+}
+ol li{
+  display: inline-block;
+  margin-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+/*Pseudo class(nth-child,first-child,last-child,hover)*/
+div:nth-child(4){
+  color:blue;
+}
+/*Pseudo element*/
+.box1::first-letter{
+  color:red;
+  font-size: 50px;
+}

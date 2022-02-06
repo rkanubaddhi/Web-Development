@@ -1,0 +1,69 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+.header{
+  background: #3B5998;
+  overflow: hidden;
+  padding: 4px 0;
+}
+.box{
+  width: 75%;
+  margin: auto;
+  max-width: 850px;
+}
+.logo{
+  width: 30%;
+  float: left;
+}
+.logo img{
+  width: 60%;
+  margin-top: 15px;
+}
+.form{
+  width: 70%;
+  float: left;
+}
+.content{
+  float: right;
+}
+.input{
+  overflow: hidden;
+}
+.forgot{
+  text-align: center;
+}
+form label,form input{
+  display: block;
+}
+form label{
+  font-size: 13px;
+  margin-bottom: 2px;
+  color: #fff;
+}
+form input[type="text"],form input[type="Password"]{
+  border: 2px solid #000;
+  font-weight: 600;
+  width: 140px;
+}
+form input[type="submit"]{
+  margin-top: 25px;
+  margin-right: 0px;
+  background: #4267b2;
+  border: 1px solid #29487d;
+  font-weight: 400;
+  color: #fff;
+}
+.email,.pass,.login{
+  float: left;
+  margin: 0px 5px;
+}
+.forgot a{
+  font-size: 13px;
+  color: #9cb4d8;
+  text-decoration: none;
+}
+.forgot a:hover{
+  text-decoration: underline;
+}

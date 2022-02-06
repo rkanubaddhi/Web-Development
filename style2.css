@@ -1,0 +1,59 @@
+body{
+  background: red;
+}
+dl{
+  border: solid 20px white;
+}
+p{
+  border-style: dashed dotted;
+  border-color: green blue yellow black;
+  border-radius: 10px;
+  border-width:15px;
+  text-indent: 80px;
+  font-size: 25px;
+  line-height: 2;
+  word-spacing: 10px;
+}
+.demo1{
+  width: 700px;
+  height: 300px;
+  background-color: blue;
+  margin: 100px;
+  text-align: center;
+  color: white;
+  padding: 50px;
+  outline-width: 10px;
+  outline-color: white;
+  outline-style: solid;
+  outline-offset: 30px;
+  border: inset 10px yellow;
+  text-decoration: underline; <!--overline,ilne-through-->
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: agency fb;
+  font-weight: 900;
+  font-style: italic;
+}
+.demo2{
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 3px 3px white;
+  max-width:1000px;/*whten the block visited from a device with a width less then 1000px it will adjust the block according to the device display.*/
+}
+h2{
+  display: none;/*inline,inline-block,block*/
+}
+
+
+table,td,th{
+  border: solid blue;
+  border-collapse: collapse;
+  width: 500px;
+}
+td,th{
+  padding: 10px;
+}
+span{
+  font-size: 25px;
+  display: block;
+}
