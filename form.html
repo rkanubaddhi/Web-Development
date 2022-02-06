@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>form</title>
+</head>
+<body>
+<h1 style="text-align:center">This page for form</h1>
+  <form action="#" method="post"><!--method's value 'post' is used to secure the entered data-->
+    <fieldset><legend>Contuct Us</legend>
+    Name<input name="nam" type="text" placeholder="Your Name">
+    ID<input name="roll" placeholder="192000">
+    Password<input type="password"><br><br>
+    Department:<br>
+    <input type="radio" name="dept" value="02">EEE <br> <!--name atribute is used for single selection but value of the name atribute must same in each option.e.g:dept-->
+    <input type="radio" name="dept" value="04">CSE <br>
+    <input type="radio" name="dept" value="01">CE <br>
+    <input type="radio" name="dept" value="03">ME <br>
+    <input type="submit" value="send">
+    </fieldset>
+  </form> <br><br>
+
+  <select>
+    <option>Math</option>
+    <option selected>Ckt</option><!--selected atribute used for showing the option at fist position of the list-->
+    <option>Physics</option>
+    <option>English</option>
+  </select><br><br>
+  <select multiple size="2">
+    <option>Math</option>
+    <option>Circuit</option>
+    <option>Physics</option>
+    <option>English</option>
+    <option>Chemistry</option>
+  </select><br><br>
+
+  <form action="#">
+    <input list="15">
+    <datalist id="15">
+      <option value="Laptop">
+      <option value="Tablet">
+      <option value="Video Game">
+      <option value="Television">
+      <option value="Calculator">
+      <option value="Radio">
+      <option value="Mouse">
+      <option value="DVD">
+      <option value="Mobile">
+      <option value="CD">
+      <option value="Music Player">
+    </datalist>
+  </form><br>
+
+<textarea name="Comment" rows="8" cols="20">Write Here</textarea>
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<!--For white-space-->
+  <input type="checkbox">C <input type="checkbox">C++
+  <input type="checkbox">Python
+<br><br>
+<form action="#">
+  <label for="nam">Name</label><input id="nam" type="text">
+  <label for="age">Age</label> <input id="age" type="number">
+  Birth <input type="date"><br>
+  <label for="mail">Email*</label><input id="mail" type="email" required><br>
+  Password*<input type="password" required>
+  <input type="file"><br>
+  <label for="phone">Mob:</label><input type="tel"><br>
+  Color<input type="color">Range<input type="range">
+  <input type="reset">&nbsp&nbsp
+  <input type="submit">
+</form>
+<br><br><br><br><br><br>
+</body>
+</html>
